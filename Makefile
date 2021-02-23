@@ -9,9 +9,9 @@ LATEXSTYLE  = mystyle.tex
 CSSSTYLE    = resume.css
 
 PDF         = pdflatex
-RST2LATEX   = rst2latex
-RST2HTML    = rst2html
-HTMLLINKCSS = --link-stylesheet 
+RST2LATEX   = rst2latex.py
+RST2HTML    = rst2html.py
+HTMLLINKCSS = --link-stylesheet
 RSTHTMLOPTS = --stylesheet=$(CSSSTYLE) --strip-comments
 
 RSTLATEXOPTS= --stylesheet=$(LATEXSTYLE) \
